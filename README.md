@@ -19,11 +19,12 @@ The system
   <li>Technologies Used: Llama2, HDBSCAN, UMAP, SBERT, C-TI-IDF, CountVectorizer, and prompt engineering.</li>
 </ul>
 ## Breaking News Classification
+
 <ul>
   <li>Objective: Highlight important, real-time events.</li>
   <li>Technologies Used: Finetuned BERT using TensorFlow, TensorFlow Hub, TensorFlow Text, BERT, and custom preprocessing and classification layers.</li>
 </ul>
-### Model Performance
+## Model Performance
 Breaking News Classification: Achieved high accuracy and low loss during training and evaluation.
 <ul>
   <li> Training Results: Loss: 0.0318, Accuracy: 0.9917</li>
