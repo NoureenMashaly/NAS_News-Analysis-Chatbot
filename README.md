@@ -38,6 +38,7 @@ Breaking News Classification: Achieved high accuracy and low loss during trainin
   <li>Web Scraping: Employed Beautiful Soup for extracting data from various news websites.</li>
   <li>Kaggle: The dataset is available on Kaggle. https://www.kaggle.com/datasets/yomnamuhammad/breaking-news</li>
 </ul>
+
 ## Headline Generation
 <ul>
   <li> Objective: Create compelling and informative titles for each article.</li>
