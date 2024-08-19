@@ -12,18 +12,18 @@ The system
 # Features
 ![image](https://github.com/user-attachments/assets/34ff8264-fcc5-44c3-8ac0-323d5683ba6f)
 
-## testing
 ## Topic Modeling
 <ul>
   <li>Objective:Identify and cluster similar words to categorize articles by topic.</li>
   <li>Technologies Used: Llama2, HDBSCAN, UMAP, SBERT, C-TI-IDF, CountVectorizer, and prompt engineering.</li>
 </ul>
-## Breaking News Classification
 
+## Breaking News Classification
 <ul>
   <li>Objective: Highlight important, real-time events.</li>
   <li>Technologies Used: Finetuned BERT using TensorFlow, TensorFlow Hub, TensorFlow Text, BERT, and custom preprocessing and classification layers.</li>
 </ul>
+
 ## Model Performance
 Breaking News Classification: Achieved high accuracy and low loss during training and evaluation.
 <ul>
@@ -31,6 +31,7 @@ Breaking News Classification: Achieved high accuracy and low loss during trainin
   <li>Validation Results: Loss: 0.2779, Accuracy: 0.9356</li>
   <li>Evaluation Results: Loss: 0.2026, Accuracy: 0.9442</li>
 </ul>
+
 ## Dataset
 <ul>
   <li>Creation: The custom dataset used for training the breaking news classification model was created using web scraping techniques.</li>
@@ -38,16 +39,25 @@ Breaking News Classification: Achieved high accuracy and low loss during trainin
   <li>Kaggle: The dataset is available on Kaggle. https://www.kaggle.com/datasets/yomnamuhammad/breaking-news</li>
 </ul>
 ## Headline Generation
-Objective: Create compelling and informative titles for each article.
-Technologies Used: Llama2, prompt engineering, 4-bit quantization, and Hugging Face transformers.
+<ul>
+  <li> Objective: Create compelling and informative titles for each article.</li>
+  <li>Technologies Used: Llama2, prompt engineering, 4-bit quantization, and Hugging Face transformers.
+</li>
+</ul>
+
 ## Text Summarization
-Objective: Provide concise summaries of key points.
-Technologies Used: BERT extractive summarizer (Summarizer), transformers, and Hugging Face.
+<ul>
+  <li>Objective: Provide concise summaries of key points.</li>
+  <li>Technologies Used: BERT extractive summarizer (Summarizer), transformers, and Hugging Face.</li>
+</ul>
+
 # Chatbot Integration
-Objective: Streamline news delivery to users through a friendly conversational interface.
-Technologies Used: Dialogflow, Telegram Flask, ngrok, and Dialogflow’s fulfillment logic.
-Functionality: The chatbot streams five news articles at a time, each processed by the topic modeling, breaking news classification, headline generation, and text summarization models, and presents the results to the user.
-Knowledge Base: Utilized Dialogflow’s knowledge base feature to allow users to ask about famous individuals and receive relevant information.
+<ul>
+  <li>Objective: Streamline news delivery to users through a friendly conversational interface.</li>
+  <li>Technologies Used: Dialogflow, Telegram Flask, ngrok, and Dialogflow’s fulfillment logic.</li>
+  <li>Functionality: The chatbot streams five news articles at a time, each processed by the topic modeling, breaking news classification, headline generation, and text summarization models, and presents the        results to the user.</li>
+  <li>Knowledge Base: Utilized Dialogflow’s knowledge base feature to allow users to ask about famous individuals and receive relevant information.</li>
+</ul>
 
 # Methods and Techniques
 ## Embeddings and Contextual Understanding
