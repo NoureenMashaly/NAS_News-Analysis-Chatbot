@@ -14,12 +14,12 @@ The system
 
 
 ## Topic Modeling
-### Objective:Identify and cluster similar words to categorize articles by topic.
-### Technologies Used: Llama2, HDBSCAN, UMAP, SBERT, C-TI-IDF, CountVectorizer, and prompt engineering.
+Objective:Identify and cluster similar words to categorize articles by topic.
+Technologies Used: Llama2, HDBSCAN, UMAP, SBERT, C-TI-IDF, CountVectorizer, and prompt engineering.
 ## Breaking News Classification
 Objective: Highlight important, real-time events.
 Technologies Used: Finetuned BERT using TensorFlow, TensorFlow Hub, TensorFlow Text, BERT, and custom preprocessing and classification layers.
-## Model Performance
+#### Model Performance
 Breaking News Classification: Achieved high accuracy and low loss during training and evaluation.
 Training Results: Loss: 0.0318, Accuracy: 0.9917
 Validation Results: Loss: 0.2779, Accuracy: 0.9356
