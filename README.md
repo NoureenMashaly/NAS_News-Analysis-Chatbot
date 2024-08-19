@@ -9,7 +9,7 @@ The system
   <li> provides concise summaries of key points </li> 
   This approach helps users quickly grasp essential information without reading lengthy articles.
 
-Features
+# Features
 ![image](https://github.com/user-attachments/assets/34ff8264-fcc5-44c3-8ac0-323d5683ba6f)
 
 
