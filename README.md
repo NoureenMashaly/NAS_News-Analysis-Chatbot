@@ -14,20 +14,28 @@ The system
 
 
 ## Topic Modeling
-Objective:Identify and cluster similar words to categorize articles by topic.
-Technologies Used: Llama2, HDBSCAN, UMAP, SBERT, C-TI-IDF, CountVectorizer, and prompt engineering.
+<ul>
+  <li>Objective:Identify and cluster similar words to categorize articles by topic.</li>
+  <li>Technologies Used: Llama2, HDBSCAN, UMAP, SBERT, C-TI-IDF, CountVectorizer, and prompt engineering.</li>
+</ul>
 ## Breaking News Classification
-Objective: Highlight important, real-time events.
-Technologies Used: Finetuned BERT using TensorFlow, TensorFlow Hub, TensorFlow Text, BERT, and custom preprocessing and classification layers.
+<ul>
+  <li>Objective: Highlight important, real-time events.</li>
+  <li>Technologies Used: Finetuned BERT using TensorFlow, TensorFlow Hub, TensorFlow Text, BERT, and custom preprocessing and classification layers.</li>
+</ul>
 #### Model Performance
 Breaking News Classification: Achieved high accuracy and low loss during training and evaluation.
-Training Results: Loss: 0.0318, Accuracy: 0.9917
-Validation Results: Loss: 0.2779, Accuracy: 0.9356
-Evaluation Results: Loss: 0.2026, Accuracy: 0.9442
+<ul>
+  <li> Training Results: Loss: 0.0318, Accuracy: 0.9917</li>
+  <li>Validation Results: Loss: 0.2779, Accuracy: 0.9356</li>
+  <li>Evaluation Results: Loss: 0.2026, Accuracy: 0.9442</li>
+</ul>
 ## Dataset
-Creation: The custom dataset used for training the breaking news classification model was created using web scraping techniques.
-Web Scraping: Employed Beautiful Soup for extracting data from various news websites.
-Kaggle: The dataset is available on Kaggle. https://www.kaggle.com/datasets/yomnamuhammad/breaking-news
+<ul>
+  <li>Creation: The custom dataset used for training the breaking news classification model was created using web scraping techniques.</li>
+  <li>Web Scraping: Employed Beautiful Soup for extracting data from various news websites.</li>
+  <li>Kaggle: The dataset is available on Kaggle. https://www.kaggle.com/datasets/yomnamuhammad/breaking-news</li>
+</ul>
 ## Headline Generation
 Objective: Create compelling and informative titles for each article.
 Technologies Used: Llama2, prompt engineering, 4-bit quantization, and Hugging Face transformers.
